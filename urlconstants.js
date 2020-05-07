@@ -1,1 +1,1 @@
-export const urlbackgroundimage="https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/2040/f/weather.jpg";
+export const urlbackgroundimage="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmttyvJvdsxkq0Fbnytmw5MfAm_LIMo7Zzk3OpQFYxeQXydlk8&usqp=CAU";

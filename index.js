@@ -73,7 +73,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="wrapper" style={{backgroundImage: "url(" + constants.urlbackgroundimage + ")"},{width:"100%"}}>
+      <div className="wrapper" style={{backgroundImage: "url(" + constants.urlbackgroundimage + ")",width:"20%"}}>
         <div className="main" >
           <div className="container" style={{ width: "100%" }}>
             <div className="row">
