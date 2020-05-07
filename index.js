@@ -3,14 +3,16 @@ import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
 import Weather from './Weather';
+import * as constants from './urlconstants';
+
 
 const apiKey = "8ddceeacaf8b95fe943c88fc8389dee0";
 
 const Title = () => {
   return (
     <div>
-      <h1 className="title-container__title">Weather Finder</h1>
-      <h3 className="title-container__subtitle">
+      <h1 className="title__title">Weather Finder</h1>
+      <h3 className="title__title2">
         Find out temperature, conditions and more...
       </h3>
     </div>
@@ -71,8 +73,8 @@ class App extends Component {
 
   render() {
     return (
-      <div className="wrapper">
-        <div className="main">
+      <div className="wrapper" style={{backgroundImage: "url(" + constants.urlbackgroundimage + ")"},{width:"100%"}}>
+        <div className="main" >
           <div className="container" style={{ width: "100%" }}>
             <div className="row">
               <div className="col-xs-5 title-container">
